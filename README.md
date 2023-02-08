@@ -6,13 +6,14 @@
 
 ["ver requisitos en ficher requirements.txt"](requirements.txt)
 
-```
+```text
 import pymysql,json  
 ...
  miConexion = pymysql.connect( host='localhost', user= 'root', passwd='', db='nueva' )
 ```
+
 Si teneis *otro* **puerto**:  
-` miConexion = pymysql.connect( host='localhost',port=xxxx, user= 'root', passwd='', db='nueva' )`
+`miConexion = pymysql.connect( host='localhost',port=xxxx, user= 'root', passwd='', db='nueva' )`
 
 Fichero  
 **Fichero**  
@@ -28,8 +29,6 @@ Fichero
 
 ![imagen](https://picsum.photos/200/300)
 
-
-
 | Una | Dos | Tres |  
 | :-- | :--: | :-- |  
-| a | b | c | 
+| a | b | c |
